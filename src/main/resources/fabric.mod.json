@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "haze",
+	"version": "${version}",
+	"name": "Haze",
+	"description": "",
+	"authors": [
+		"Searchies"
+	],
+	"contact": {
+		"homepage": "https://searchies.net/",
+		"sources": "https://github.com/Searchies/Haze"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/haze/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.searchies.haze.Haze"
+		],
+		"client": [
+			"net.searchies.haze.HazeClient"
+		],
+		"fabric-datagen": [
+			"net.searchies.haze.HazeDataGenerator"
+		]
+	},
+	"mixins": [
+		"haze.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

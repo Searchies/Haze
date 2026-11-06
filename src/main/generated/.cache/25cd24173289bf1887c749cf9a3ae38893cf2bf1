@@ -1,0 +1,5 @@
+// 1.21.11	-999999999-01-01T00:00:00	Haze/ModRecipeProvider
+bb3a7dc441c00747bbd8f23da7dbe88b81b6b48d data/haze/advancement/recipes/misc/diamond_from_smelting.json
+920f0688bcd64b0dffca8dc74abe164bca2b242c data/haze/advancement/recipes/misc/netherite_scrap_from_smelting.json
+c15a47ab787e85c6a85aaf6f58bead0942e775ab data/haze/recipe/diamond_from_smelting.json
+af2d620ce39007c8edbc149ab571287c86978c67 data/haze/recipe/netherite_scrap_from_smelting.json

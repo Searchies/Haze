@@ -15,5 +15,9 @@ public class ModLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(HolderLookup.Provider provider, TranslationBuilder translationBuilder) {
         translationBuilder.add(ModItems.BAMBOOM, "Bamboom");
+
+//        translationBuilder.add(ModItems.HAZE_ARMOR_TRIM_SMITHING_TEMPLATE, "Haze Armor Trim Smithing Template");
+        translationBuilder.add("trim_material.haze.haze_trim_material", "Haze Trim Material");
+        translationBuilder.add("trim_pattern.haze.haze_trim_pattern", "Haze Trim Pattern");
     }
 }

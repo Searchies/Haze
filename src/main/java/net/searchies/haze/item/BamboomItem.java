@@ -9,6 +9,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.damagesource.DamageSources;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.item.Item;
@@ -52,6 +53,7 @@ public class BamboomItem extends Item implements ProjectileItem {
                         false,
                         Level.ExplosionInteraction.NONE
                 );
+                player.hurtServer(serverLevel, Explosion.getDefaultDamageSource(serverLevel, player), 7.0F);
             }
         }
 
